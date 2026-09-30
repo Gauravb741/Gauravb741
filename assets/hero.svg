@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">Gaurav Sharad Bansod GitHub banner</title>
+  <desc id="desc">A calm futuristic night landscape with the message Welcome to Gaurav's GitHub.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#07111d"/>
+      <stop offset="48%" stop-color="#11182b"/>
+      <stop offset="100%" stop-color="#220f2d"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#62d9ff" stop-opacity=".0"/>
+      <stop offset="50%" stop-color="#9b7bff" stop-opacity=".85"/>
+      <stop offset="100%" stop-color="#62d9ff" stop-opacity=".0"/>
+    </linearGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="14"/></filter>
+  </defs>
+  <rect width="1200" height="320" rx="18" fill="url(#bg)"/>
+  <ellipse cx="610" cy="90" rx="260" ry="44" fill="url(#glow)" filter="url(#blur)">
+    <animate attributeName="opacity" values=".35;.75;.35" dur="5s" repeatCount="indefinite"/>
+  </ellipse>
+  <g fill="#fff" opacity=".65">
+    <circle cx="105" cy="62" r="2"/><circle cx="190" cy="96" r="1.6"/><circle cx="915" cy="56" r="1.8"/>
+    <circle cx="1030" cy="104" r="1.3"/><circle cx="780" cy="36" r="1.5"/><circle cx="540" cy="44" r="1.2"/>
+  </g>
+  <path d="M0 205 C120 165 230 188 325 156 C430 122 502 184 620 150 C730 118 820 192 920 152 C1020 112 1088 165 1200 132 L1200 320 L0 320 Z" fill="#0b1728"/>
+  <path d="M0 240 C130 212 250 252 352 218 C458 182 544 248 642 213 C748 176 846 252 942 216 C1030 184 1100 232 1200 202 L1200 320 L0 320 Z" fill="#0a2037"/>
+  <path d="M610 318 C585 286 598 265 640 247 C684 229 706 215 691 193 C676 172 641 171 620 160 C650 176 676 188 676 204 C675 221 648 229 625 242 C589 261 566 286 580 318 Z" fill="#d6eaff" opacity=".95"/>
+  <path d="M610 318 C600 291 610 273 643 258 C670 245 686 231 683 216" fill="none" stroke="#8cdcff" stroke-width="5" stroke-linecap="round" opacity=".6"/>
+  <g text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif">
+    <text x="600" y="104" fill="#d9e7ff" font-size="28" letter-spacing="2">WELCOME TO GAURAV'S GITHUB</text>
+    <text x="600" y="140" fill="#89d7ff" font-size="16" letter-spacing="4">BUILD • AUTOMATE • DEPLOY</text>
+    <text x="600" y="171" fill="#a9a6ff" font-size="13" letter-spacing="2">FULL-STACK · DEVOPS / CLOUD · AI / ML</text>
+  </g>
+</svg>
