@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 650 430" role="img" aria-labelledby="title desc">
+<title id="title">NITIGATI architecture</title><desc id="desc">Next.js and Django architecture with AI voice onboarding and Redis-backed real-time communication.</desc>
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0B1020"/><stop offset="1" stop-color="#160B26"/></linearGradient>
+ <linearGradient id="ai" x1="0" x2="1"><stop stop-color="#C084FC"/><stop offset="1" stop-color="#F472B6"/></linearGradient>
+ <filter id="g"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="650" height="430" rx="24" fill="url(#bg)" stroke="#334155"/>
+<text x="28" y="36" font-family="ui-monospace,monospace" font-size="15" fill="#67E8F9">NITIGATI // SYSTEM MAP</text>
+<g font-family="ui-sans-serif,system-ui,sans-serif" text-anchor="middle">
+ <rect x="34" y="66" width="170" height="65" rx="15" fill="#082F49" stroke="#22D3EE" stroke-width="2"/><text x="119" y="93" fill="#67E8F9" font-weight="800">NEXT.JS</text><text x="119" y="114" fill="#CBD5E1" font-size="12">UI + workflows</text>
+ <rect x="240" y="66" width="170" height="65" rx="15" fill="#1E1B4B" stroke="#818CF8" stroke-width="2"/><text x="325" y="93" fill="#C7D2FE" font-weight="800">DJANGO REST</text><text x="325" y="114" fill="#CBD5E1" font-size="12">API + auth</text>
+ <rect x="446" y="66" width="170" height="65" rx="15" fill="#0F172A" stroke="#94A3B8" stroke-width="2"/><text x="531" y="93" fill="#E2E8F0" font-weight="800">DATA</text><text x="531" y="114" fill="#CBD5E1" font-size="12">application state</text>
+ <path d="M204 98H240M410 98H446" stroke="#67E8F9" stroke-width="3" stroke-dasharray="10 8"><animate attributeName="stroke-dashoffset" from="0" to="-54" dur="1.1s" repeatCount="indefinite"/></path>
+ <rect x="34" y="190" width="582" height="95" rx="18" fill="#1B1030" stroke="url(#ai)" stroke-width="2" filter="url(#g)"/><text x="325" y="217" fill="#F0ABFC" font-weight="800">AI VOICE ONBOARDING</text>
+ <text x="325" y="244" fill="#E2E8F0" font-size="13">Microphone → faster-Whisper → Gemini → structured fields</text>
+ <text x="325" y="265" fill="#F9A8D4" font-size="13">→ Edge TTS → spoken follow-up</text>
+ <rect x="34" y="330" width="582" height="65" rx="15" fill="#07251D" stroke="#A3E635" stroke-width="2"/><text x="325" y="357" fill="#BEF264" font-weight="800">REAL-TIME</text><text x="325" y="378" fill="#CBD5E1" font-size="12">Client ↔ WebSocket ↔ Django Channels ↔ Redis</text>
+ <path d="M325 131V190M325 285V330" stroke="#64748B" stroke-width="2" stroke-dasharray="7 8"><animate attributeName="stroke-dashoffset" from="0" to="-30" dur="1s" repeatCount="indefinite"/></path>
+</g>
+</svg>
