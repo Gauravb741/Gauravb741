@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+<defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#55d6ff"/><stop offset=".52" stop-color="#a88bff"/><stop offset="1" stop-color="#ff79c6"/></linearGradient><pattern id="p" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#1d2940"/></pattern></defs>
+<rect width="1200" height="300" rx="22" fill="#0b1020"/><rect x="18" y="18" width="1164" height="264" rx="18" fill="url(#p)" opacity=".55"/>
+<path d="M0 235 C190 190 355 280 530 235 S875 188 1200 232" fill="none" stroke="url(#g)" stroke-width="2" opacity=".55"/>
+<text x="72" y="64" fill="#55d6ff" font-family="monospace" font-size="18">$ whoami</text>
+<text x="72" y="120" fill="#e9f0ff" font-family="Arial" font-size="40" font-weight="700">Gaurav Sharad Bansod</text>
+<text x="72" y="157" fill="#95a3bd" font-family="Arial" font-size="19">Software Developer · Full-Stack · DevOps / Cloud · AI / ML</text>
+<text x="72" y="202" fill="#e9f0ff" font-family="monospace" font-size="16">build → connect → automate → deploy</text>
+<g>
+<path d="M860 92 L1005 160 L915 230 L860 92" fill="none" stroke="#1d2940" stroke-width="2"/>
+<circle cx="860" cy="92" r="7" fill="#55d6ff"><animate attributeName="cy" values="92;76;92" dur="3s" repeatCount="indefinite"/></circle>
+<circle cx="1005" cy="160" r="7" fill="#a88bff"><animate attributeName="cx" values="1005;1025;1005" dur="3.5s" repeatCount="indefinite"/></circle>
+<circle cx="915" cy="230" r="7" fill="#8df59b"><animate attributeName="r" values="7;10;7" dur="2.4s" repeatCount="indefinite"/></circle></g></svg>

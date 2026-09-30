@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="370" viewBox="0 0 1100 370">
+<rect width="1100" height="370" rx="22" fill="#0b1020"/>
+<text x="45" y="48" fill="#e9f0ff" font-family="Arial" font-size="25" font-weight="700">Technology Map</text>
+<text x="45" y="76" fill="#95a3bd" font-family="Arial" font-size="14">The same technologies, organized by the role they play.</text>
+<g><rect x="45" y="110" width="235" height="215" rx="18" fill="#11182a" stroke="#55d6ff" stroke-width="1.5"/>
+<text x="65" y="144" fill="#55d6ff" font-family="Arial" font-size="17" font-weight="700">BUILD</text>
+<text x="65" y="180" fill="#e9f0ff" font-family="Arial" font-size="13">Python · Java</text>
+<text x="65" y="207" fill="#e9f0ff" font-family="Arial" font-size="13">Django · React / Next.js</text>
+<text x="65" y="234" fill="#e9f0ff" font-family="Arial" font-size="13">REST · WebSockets</text>
+<text x="65" y="286" fill="#95a3bd" font-family="Arial" font-size="12">application layer</text><rect x="295" y="110" width="235" height="215" rx="18" fill="#11182a" stroke="#8df59b" stroke-width="1.5"/>
+<text x="315" y="144" fill="#8df59b" font-family="Arial" font-size="17" font-weight="700">SHIP</text>
+<text x="315" y="180" fill="#e9f0ff" font-family="Arial" font-size="13">GitHub Actions</text>
+<text x="315" y="207" fill="#e9f0ff" font-family="Arial" font-size="13">Docker · Trivy</text>
+<text x="315" y="234" fill="#e9f0ff" font-family="Arial" font-size="13">Kubernetes · Argo CD</text>
+<text x="315" y="286" fill="#95a3bd" font-family="Arial" font-size="12">delivery layer</text><rect x="545" y="110" width="235" height="215" rx="18" fill="#11182a" stroke="#ffb86b" stroke-width="1.5"/>
+<text x="565" y="144" fill="#ffb86b" font-family="Arial" font-size="17" font-weight="700">PROVISION</text>
+<text x="565" y="180" fill="#e9f0ff" font-family="Arial" font-size="13">Terraform</text>
+<text x="565" y="207" fill="#e9f0ff" font-family="Arial" font-size="13">AWS · VPC · EC2</text>
+<text x="565" y="234" fill="#e9f0ff" font-family="Arial" font-size="13">IAM · S3</text>
+<text x="565" y="286" fill="#95a3bd" font-family="Arial" font-size="12">infrastructure layer</text><rect x="795" y="110" width="235" height="215" rx="18" fill="#11182a" stroke="#a88bff" stroke-width="1.5"/>
+<text x="815" y="144" fill="#a88bff" font-family="Arial" font-size="17" font-weight="700">INTELLIGENCE</text>
+<text x="815" y="180" fill="#e9f0ff" font-family="Arial" font-size="13">Machine Learning</text>
+<text x="815" y="207" fill="#e9f0ff" font-family="Arial" font-size="13">Computer Vision</text>
+<text x="815" y="234" fill="#e9f0ff" font-family="Arial" font-size="13">Scikit-learn / data</text>
+<text x="815" y="286" fill="#95a3bd" font-family="Arial" font-size="12">AI / data layer</text></g></svg>
